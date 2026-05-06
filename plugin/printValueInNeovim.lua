@@ -3,6 +3,6 @@ if vim.g.loaded_printValueInNeovim then
 end
 vim.g.loaded_printValueInNeovim = true
 
-vim.api.nvim_create_user_command("PrintValue", function()
+vim.api.nvim_create_user_command("PrintNvimValue", function()
   require("printValueInNeovim").show()
 end, { desc = "Display lua value under cursor" })

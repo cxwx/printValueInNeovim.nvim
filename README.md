@@ -11,7 +11,7 @@
   "cxwx/printValueInNeovim.nvim",
   ft = "lua",
   keys = {
-    { ",oh", "<cmd>PrintValue<cr>", ft = "lua", desc = "Display value in nvim" },
+    { ",oh", "<cmd>PrintNvimValue<cr>", ft = "lua", desc = "Display value in nvim" },
   },
 }
 ```
