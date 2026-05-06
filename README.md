@@ -26,3 +26,12 @@
 4. 按 `q` 或 `Esc` 关闭浮动窗口
 
 若表达式无法求值，会回退到 `vim.lsp.buf.hover()` 显示 LSP hover 信息。
+
+## 致谢
+
+- 本插件由 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (Anthropic 官方 CLI 工具) 协助开发
+- 使用 [mimo](https://github.com/XiaomiMiMo/MiMo) 模型驱动，由小米大模型团队开发
+
+## License
+
+[MIT](LICENSE)
